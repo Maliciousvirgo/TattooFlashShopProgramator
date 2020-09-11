@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="tattooshop:war">
+    <output-path>$PROJECT_DIR$/tattooshop/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>tattooshop</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="tattooshop-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="tattooshop:war exploded" />
+    </root>
+  </artifact>
+</component>
